@@ -50,7 +50,7 @@ I'm a passionate developer who loves exploring new technologies and building inn
 
 <div align="center">
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=johntime2005&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com/?user=johntime2005&theme=tokyonight&hide_border=true"/>
 
 </div>
 
