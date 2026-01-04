@@ -42,15 +42,15 @@ I'm a passionate developer who loves exploring new technologies and building inn
 
 <div align="center">
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=johntime2005&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=johntime2005&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github"/>
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=johntime2005&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=johntime2005&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320"/>
 
 </div>
 
 <div align="center">
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=johntime2005&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com/?user=johntime2005&theme=tokyonight&hide_border=true"/>
 
 </div>
 
