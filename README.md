@@ -47,16 +47,6 @@ I'm a passionate developer who loves exploring new technologies and building inn
 
 ---
 
-## 🚀 Featured Projects
-
-<div align="center">
-  <a href="https://github.com/johntime2005/blog-temple">
-    <img src="./stats/pin-blog-temple.svg" alt="Blog Temple"/>
-  </a>
-</div>
-
----
-
 ## 📫 Connect with Me
 
 <div align="center">
