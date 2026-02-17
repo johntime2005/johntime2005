@@ -1,11 +1,8 @@
 # Hi there, I'm johntime2005 👋
 
 <div align="center">
-
-  **Full-Stack Developer | Open Source Enthusiast | Lifelong Learner**
-
+  <b>Full-Stack Developer | Open Source Enthusiast | Lifelong Learner</b><br><br>
   <i>Building elegant solutions to complex problems</i>
-
 </div>
 
 ---
@@ -17,7 +14,7 @@ I'm a passionate developer who loves exploring new technologies and building inn
 - 🔭 Currently working on exciting web development projects
 - 🌱 Learning new frameworks and best practices every day
 - 💡 Interested in full-stack development, cloud computing, and DevOps
-- 🎯 Now studying at the University of Lanzhou, China. Majoring in Computer Science
+- 🎯 Now studying at Lanzhou University, majoring in Computer Science
 
 ---
 
@@ -27,7 +24,6 @@ I'm a passionate developer who loves exploring new technologies and building inn
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-
 
 ### Tools & Platforms
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -41,17 +37,12 @@ I'm a passionate developer who loves exploring new technologies and building inn
 ## 📊 GitHub Statistics
 
 <div align="center">
-
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=johntime2005&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github"/>
-
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=johntime2005&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320"/>
-
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=johntime2005&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=johntime2005&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320" alt="Top Langs"/>
 </div>
-
+<br>
 <div align="center">
-
-  <img src="https://streak-stats.demolab.com/?user=johntime2005&theme=tokyonight&hide_border=true"/>
-
+  <img src="https://streak-stats.demolab.com/?user=johntime2005&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </div>
 
 ---
@@ -59,9 +50,9 @@ I'm a passionate developer who loves exploring new technologies and building inn
 ## 🚀 Featured Projects
 
 <div align="center">
-
-[![Blog Temple](https://github-readme-stats.vercel.app/api/pin/?username=johntime2005&repo=blog-temple&theme=tokyonight&hide_border=true)](https://github.com/johntime2005/blog-temple)
-
+  <a href="https://github.com/johntime2005/blog-temple">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=johntime2005&repo=blog-temple&theme=tokyonight&hide_border=true" alt="Blog Temple"/>
+  </a>
 </div>
 
 ---
@@ -69,18 +60,13 @@ I'm a passionate developer who loves exploring new technologies and building inn
 ## 📫 Connect with Me
 
 <div align="center">
-
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/johntime2005)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:johntimeson@outlook.com)
-
+  <a href="https://github.com/johntime2005"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <a href="mailto:johntimeson@outlook.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </div>
 
 ---
 
 <div align="center">
-
-  ⭐️ From [johntime2005](https://github.com/johntime2005)
-
-  ![Profile Views](https://komarev.com/ghpvc/?username=johntime2005&color=blueviolet&style=flat-square)
-
+  ⭐️ From <a href="https://github.com/johntime2005">johntime2005</a><br><br>
+  <img src="https://komarev.com/ghpvc/?username=johntime2005&color=blueviolet&style=flat-square" alt="Profile Views"/>
 </div>
