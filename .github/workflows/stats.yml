@@ -1,0 +1,66 @@
+name: Generate Stats SVGs
+
+on:
+  schedule:
+    # Runs daily at 00:00 UTC (08:00 Beijing time)
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create stats directory
+        run: mkdir -p stats
+
+      - name: Generate GitHub Stats SVG
+        run: |
+          curl -sSL -o stats/github-stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=johntime2005&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github"
+
+      - name: Generate Top Languages SVG
+        run: |
+          curl -sSL -o stats/top-langs.svg \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=johntime2005&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320"
+
+      - name: Generate Streak Stats SVG
+        run: |
+          curl -sSL -o stats/streak-stats.svg \
+            "https://streak-stats.demolab.com/?user=johntime2005&theme=tokyonight&hide_border=true"
+
+      - name: Generate Pin Card SVG
+        run: |
+          curl -sSL -o stats/pin-blog-temple.svg \
+            "https://github-readme-stats.vercel.app/api/pin/?username=johntime2005&repo=blog-temple&theme=tokyonight&hide_border=true"
+
+      - name: Verify SVGs are valid
+        run: |
+          for f in stats/*.svg; do
+            if [ ! -s "$f" ]; then
+              echo "ERROR: $f is empty"
+              exit 1
+            fi
+            if ! head -c 100 "$f" | grep -q '<svg\|<?xml'; then
+              echo "WARNING: $f may not be a valid SVG, checking content..."
+              head -c 200 "$f"
+            fi
+          done
+          echo "All SVGs verified successfully"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update GitHub stats SVGs [skip ci]"
+            git push
+          fi

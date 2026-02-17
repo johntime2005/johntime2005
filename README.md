@@ -37,12 +37,12 @@ I'm a passionate developer who loves exploring new technologies and building inn
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=johntime2005&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=johntime2005&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320" alt="Top Langs"/>
+  <img height="180" src="./stats/github-stats.svg" alt="GitHub Stats"/>
+  <img height="180" src="./stats/top-langs.svg" alt="Top Langs"/>
 </div>
 <br>
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=johntime2005&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="./stats/streak-stats.svg" alt="GitHub Streak"/>
 </div>
 
 ---
@@ -51,7 +51,7 @@ I'm a passionate developer who loves exploring new technologies and building inn
 
 <div align="center">
   <a href="https://github.com/johntime2005/blog-temple">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=johntime2005&repo=blog-temple&theme=tokyonight&hide_border=true" alt="Blog Temple"/>
+    <img src="./stats/pin-blog-temple.svg" alt="Blog Temple"/>
   </a>
 </div>
 
